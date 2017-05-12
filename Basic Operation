@@ -1,0 +1,8 @@
+svn add : add new files or directory into repository, and then need to use "svn commit" command to commit.
+          the no-ignore parameter is a good parameter for commit .a .so. .la .lib files and so on, or these type
+          files will not be commit.
+svn commit -m "log" : commit the modify or difference between your workspace and svn repository.
+
+svn st: it can show the difference files between your workspace and repository.
+svn checkout [url]: check out the repository from SVN to your workspace.
+svn update: update the difference from repository to your workspace.
